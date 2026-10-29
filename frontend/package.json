@@ -1,0 +1,27 @@
+{
+  "name": "f1-performance-analytics",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.0.0",
+    "lucide-react": "^0.475.0",
+    "recharts": "^2.15.0",
+    "tailwindcss": "^3.4.17",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.5.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.8",
+    "@vitejs/plugin-react": "^4.7.0",
+    "vite": "^6.0.7"
+  }
+}

@@ -1,0 +1,108 @@
+# ==========================================
+# F1 Race Intelligence - Git Ignore
+# ==========================================
+
+# Dependencies - Node.js
+node_modules/
+**/node_modules/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+**/.venv/
+**/venv/
+
+# Python cache and generated files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# Local databases and temporary database files
+*.sqlite
+*.sqlite3
+*.db
+*.sqlite-wal
+*.sqlite-shm
+*-wal
+*-shm
+
+# Machine learning model weights and checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.h5
+*.hdf5
+*.joblib
+*.pkl
+
+# Generated RAG data, embeddings and vector indexes
+chroma_db/
+vector_db/
+vectorstore/
+embeddings/
+embedding_cache/
+.faiss/
+*.faiss
+*.index
+
+# Local model caches
+.cache/
+huggingface_cache/
+models_cache/
+
+# Frontend build output
+dist/
+build/
+.vite/
+coverage/
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Local Python tooling
+.python-version.local
+pip-wheel-metadata/
+
+# Package and test caches
+.npm/
+.eslintcache
+.parcel-cache/
+.turbo/
+
+# Keep dependency manifests and lockfiles tracked
+# package.json, package-lock.json, requirements.txt,
+# and other source/configuration files remain trackable

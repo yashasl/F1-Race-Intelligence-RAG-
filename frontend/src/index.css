@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --red-accent: #ff2a40;
+  --gray-400: #9ca3af;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  @apply bg-dark font-body text-gray-200 antialiased;
+}
+
+a {
+  @apply transition-colors;
+}

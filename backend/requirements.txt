@@ -1,0 +1,19 @@
+# Backend dependencies for F1 Performance Analytics Platform
+# These are compatible with the existing project packages
+
+fastapi>=0.110.0
+uvicorn[standard]>=0.30.0
+google-generativeai>=0.8.0
+pinecone>=5.0.0
+pandas>=2.0.0
+numpy>=1.24.0
+python-dotenv>=1.0.0
+pydantic>=2.7.0
+python-multipart>=0.0.6
+
+# For async Pinecone support (if needed)
+pinecone-client>=3.0.0
+
+# Optional: for testing
+pytest>=7.0.0
+httpx>=0.27.0
